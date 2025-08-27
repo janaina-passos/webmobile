@@ -8,4 +8,4 @@ Para ampliar sua visibilidade e alcance, propomos a criação de um site oficial
 
 
 # Protótipo (Wireframe)
-[Wireframe home (1).pdf](https://github.com/user-attachments/files/22013752/Wireframe.home.1.pdf)
+<img width="500" height="1600" alt="image" src="https://github.com/user-attachments/assets/db46cd39-e6de-42e8-ade6-782de62d8927" />
