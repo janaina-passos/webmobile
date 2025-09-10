@@ -1,5 +1,6 @@
 # Tutorial
-
+Nome: Bárbara Diogo Passos e Janaína Diogo Passos
+RA: 10737885 e 10737888
 
 # Processo de Ideação
 O WomanTech é um projeto de extensão da FCI, em parceria com o programa Meninas Digitais da Sociedade Brasileira de Computação. Seu objetivo é promover a participação feminina na tecnologia, incentivando meninas do ensino médio, mulheres em transição de carreira e estudantes a ingressarem na área, por meio de oficinas, palestras, criação de conteúdos e atividades práticas.
