@@ -37,13 +37,13 @@ O __header__ é a seção do cabeçalho do site, onde ficam elementos como o log
 
 A __section class="anuncio"__ é usada para separar a imagem que foi usada para promover o evento do resto do código, podendo editá-la separadamente. A __section class="tudo"__ agrupa todo o conteúdo principal da página. Dentro dela, __section class="texto"__ contém o logo, o título e o texto de apresentação do projeto. A __section class="circulo"__ apresenta os objetivos do projeto, e os IDs c1 e c2 foram usados para estilizar separadamente o __h1__ e o __p__ .
 
-# 5. Seção de organizadoras e colaboradoras
+# 4. Seção de organizadoras e colaboradoras
 
 <img width="632" height="587" alt="image" src="https://github.com/user-attachments/assets/b001b6e8-8efc-4f24-8178-9ad0db202b7f" />
 
 A __section class="organizadoras"__ agrupa informações sobre as pessoas envolvidas no projeto. Dentro dela, __section class="pessoas"__ organiza a lista de todas as participantes. Cada __section class="pessoa"__ representa uma pessoa, com sua foto e descrição, e a __section class="foto"__ contém especificamente a imagem de cada participante.
 
-# 6. Footer
+# 5. Footer
 
 <img width="475" height="131" alt="image" src="https://github.com/user-attachments/assets/e3632ead-bdcf-47aa-83ab-5732a56c2f08" />
 
