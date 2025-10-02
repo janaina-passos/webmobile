@@ -157,3 +157,31 @@ A classe __.circulo__ cria um elemento de 0 0 300px; com fundo rosa escuro e bor
 <img width="590" height="614" alt="image" src="https://github.com/user-attachments/assets/bfa3f10c-8ba4-468d-8e38-0e27bb29482e" />
 
 A classe __.organizadoras__ define o espaçamento interno (__padding: 60px 10%__) e uma borda superior rosa (__border-top: 2px solid #c9797d__) para a seção de participantes. O título (__.organizadoras h1__) tem margem inferior, fonte de 30px e exibe elementos alinhados horizontalmente com espaço (__gap: 10px__). A lista de pessoas (__.pessoas__) é organizada em grid responsivo, com colunas automáticas e espaçamento de 40px, centralizando os itens. Cada participante (__.pessoa__) tem texto centralizado. As imagens (__.foto img__) são circulares (__border-radius: 50%__), têm tamanho 150x150px, margem inferior de 15px e centralização, com efeito de aumento ao passar o mouse (__hover: transform: scale(1.2)__) para interatividade visual.
+
+# Estilos responsivos para telas pequenas
+
+<img width="465" height="541" alt="image" src="https://github.com/user-attachments/assets/baaf2da5-1224-4b87-ae02-2c175dcd3dc6" />
+
+Este trecho adapta o layout para telas com largura máxima de 768px, como tablets e celulares. Elementos em __.tudo__ passam a se organizar em coluna e centralizados. O menu de navegação se ajusta, centralizando os itens e permitindo que quebrem linha, com fontes menores. Os elementos circulares (__.circulo__) ficam mais estreitos, com bordas menos arredondadas, e a grade de participantes (__.pessoas__) se ajusta para caber melhor em telas pequenas. Além disso, os parágrafos deixam de flutuar e sua altura se ajusta automaticamente, garantindo melhor leitura e usabilidade em dispositivos móveis.
+
+# Formulário
+# Centralização do formulário e estilo do corpo
+
+<img width="387" height="293" alt="image" src="https://github.com/user-attachments/assets/215b874f-4d1b-420a-a2d0-dd6c58127d1f" />
+
+O __body__ recebe um fundo rosa escuro. A classe __.center-form__ garante que o corpo tenha altura mínima de 100% da tela, permitindo que o formulário seja centralizado vertical e horizontalmente. O formulário dentro de __.center-form__ usa __position: absolute__ e transformações (__translate__) para ficar exatamente no centro da tela, criando um layout visualmente equilibrado e destacado.
+
+# Estilo de formulário e links
+
+<img width="195" height="205" alt="image" src="https://github.com/user-attachments/assets/f286fdc6-9238-4eda-853f-9d3bd2b94288" />
+
+O __fieldset__ define a cor da borda e do texto como branca, destacando os títulos e conteúdos do formulário. O __form__ tem largura de 40% e altura de 50% da tela, garantindo um tamanho proporcional e centralizado. Os links (__a__) aparecem em branco e sem sublinhado, mantendo a estética limpa e consistente com o design do formulário.
+
+# Javascript
+# Formulário
+
+# Função de envio do formulário
+
+<img width="253" height="70" alt="image" src="https://github.com/user-attachments/assets/d2682fed-2c69-47e1-a913-a64271270c59" />
+
+A função JavaScript __Enviado()__ exibe um alerta com a mensagem “Formulário enviado” quando chamada, ao clicar no botão de envio. Ela serve como confirmação visual imediata para o usuário de que a ação de enviar o formulário foi registrada.
