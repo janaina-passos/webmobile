@@ -95,12 +95,6 @@ O código cria dois menus suspensos (<select>). O primeiro pergunta em qual seme
 
 O trecho cria uma área de texto ( __textarea__ ) para que o usuário escreva livremente suas motivações para participar do WomanTech. Os atributos __rows="6"__ e __cols="50"__ definem o tamanho da caixa, permitindo múltiplas linhas de texto.
 
-# 8. Enviar
-
-<img width="519" height="27" alt="image" src="https://github.com/user-attachments/assets/99d0ae8c-7d43-4e3a-a830-46451884aeda" />
-
-O código cria um botão com o texto “Enviar” que, ao ser clicado, executa a função JavaScript Enviado(). Ele permite que ações, como validação ou envio de dados, sejam disparadas quando o usuário pressiona o botão.
-
 # Tutorial CSS
 # Homepage
 
@@ -182,6 +176,6 @@ O __fieldset__ define a cor da borda e do texto como branca, destacando os títu
 
 # Função de envio do formulário
 
-<img width="253" height="70" alt="image" src="https://github.com/user-attachments/assets/d2682fed-2c69-47e1-a913-a64271270c59" />
+<img width="436" height="569" alt="image" src="https://github.com/user-attachments/assets/3dcf70b9-548b-4311-b34b-321c4a213bee" />
 
-A função JavaScript __Enviado()__ exibe um alerta com a mensagem “Formulário enviado” quando chamada, ao clicar no botão de envio. Ela serve como confirmação visual imediata para o usuário de que a ação de enviar o formulário foi registrada.
+Ele verifica se o nome foi preenchido, se o e-mail está no formato correto e se o campo sobre você não está vazio. Caso algum campo esteja incorreto, mostra alertas de erro e impede o envio do formulário (__preventDefault__). Se todos os campos estiverem válidos, o envio prossegue (ou aparece o alerta “Formulário enviado com sucesso”).
