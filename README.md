@@ -98,74 +98,74 @@ O trecho cria uma área de texto ( __textarea__ ) para que o usuário escreva li
 # Tutorial CSS
 # Homepage
 
-# Estilos gerais e cor de fundo da página
+# 1. Estilos gerais e cor de fundo da página
 
 <img width="282" height="199" alt="image" src="https://github.com/user-attachments/assets/d835f034-658b-4de7-a70b-96c6cfd75a21" />
 
 Remove margens e espaçamentos padrão de todos os elementos com __* { margin: 0; padding: 0; box-sizing: border-box; }__ e faz com que o padding e a border sejam incluídos no tamanho total do elemento. __body { background-color: #ffe8f0; }__ define a cor de fundo da página como um tom rosa claro.
 
-# Estilo e layout do cabeçalho
+# 2. Estilo e layout do cabeçalho
 
 <img width="320" height="295" alt="image" src="https://github.com/user-attachments/assets/630e7a8f-b646-46bb-bf3a-d92fdcb8c41f" />
 
 Estiliza o __header__ da página, definindo largura total (__width: 100%__), altura mínima (__min-height: 50px__), e espaçamento interno (__padding: 15px 30px__). O uso de __display: flex__ , __justify-content: space-between__ e __align-items: center__ organiza os elementos horizontalmente, com espaçamento entre eles e centralizados verticalmente. __header img { height: 80px; }__ define a altura das imagens dentro do cabeçalho.
 
-# Estilo do menu de navegação do cabeçalho
+# 3. Estilo do menu de navegação do cabeçalho
 
 <img width="295" height="597" alt="image" src="https://github.com/user-attachments/assets/a008fc05-392b-4a96-9590-6847899718ae" />
 
 Estiliza o menu de navegação dentro do __header__. A lista (__ul__) remove os marcadores (__list-style-type: none__), exibe os itens em linha com flex, alinhando-os à direita (__justify-content: flex-end__) e centralizados verticalmente (__align-items: center__), com espaçamento (__gap: 20px__) e padding à direita. Cada item (__li__) é exibido em linha (__inline-block__) com margem horizontal e alinhamento vertical no topo do texto. Os links (__a__) dentro dos itens não têm sublinhado, têm cantos arredondados, padding, tamanho de fonte de 20px, cor branca e transição suave de 0,3s. Ao passar o mouse (__hover__), o fundo do link muda para rosa claro.
 
-# Estilo de título e parágrafos
+# 4. Estilo de título e parágrafos
 
 <img width="200" height="256" alt="image" src="https://github.com/user-attachments/assets/9f845e40-9b87-4c7a-b59a-09eafe050247" />
 
 Define o estilo do __h1__ com cor rosa, margem de 5px e tamanho de fonte de 30px. Os parágrafos (__p__) também usam a mesma cor, têm espaçamento superior de 20px, flutuam à esquerda (__float: left__) e possuem altura de 100px, organizando o texto de forma alinhada e visualmente consistente.
 
-# Estilo do rodapé
+# 5. Estilo do rodapé
 
 <img width="321" height="411" alt="image" src="https://github.com/user-attachments/assets/7a9fc663-2c3a-44c2-a47d-916203599adf" />
 
 Estiliza o __footer__ com fundo rosa claro, texto centralizado, padding de 20px vertical e 10px horizontal, e cor do texto rosa escuro. A linha horizontal (__hr__) não tem borda padrão, mas recebe uma borda superior rosa escura, centralizada e com 80% da largura. Os parágrafos dentro do rodapé têm margem e padding ajustados, fonte de 16px e mesma cor rosa escura, garantindo um visual limpo e consistente.
 
-# Estilo de imagem 
+# 6. Estilo de imagem 
 
 <img width="289" height="180" alt="image" src="https://github.com/user-attachments/assets/ed37dc8d-e02d-462f-bba1-618c79fa6a04" />
 
 Define que a imagem dentro da classe __.anuncio__ ocupem toda a largura disponível (__width: 100%__) e altura de 430px. O __display: flex__ junto com __justify-content: center__ e __align-items: center__ centraliza o conteúdo da imagem. Além disso, __margin: 0__ remove qualquer espaçamento externo, garantindo que a imagem se ajuste perfeitamente ao contêiner.
 
-# Estilo de layout e conteúdo
+# 7. Estilo de layout e conteúdo
 
 <img width="332" height="464" alt="image" src="https://github.com/user-attachments/assets/85c2567d-a626-4bf2-9bcd-31a12ae53d9b" />
 
 Define a classe __.tudo__ como um contêiner flexível (__display: flex__) que distribui os elementos com espaço ao redor (__justify-content: space-around__), mantém um espaçamento interno de 3% (__padding: 3%__) e permite que os itens quebrem linha (__flex-wrap: wrap__) com gap: 20px. A classe __.texto__ organiza o conteúdo em coluna (__flex-direction: column__) com espaçamento de 20px entre elementos, fonte de 20px, margem inferior de 20px e centraliza o conteúdo verticalmente (__justify-content: center__). As imagens dentro de __.texto__ têm posicionamento relativo, deslocadas 50px para a esquerda e 50px para baixo.
 
-# Estilo de elemento circular interativo
+# 8. Estilo de elemento circular interativo
 
 <img width="352" height="334" alt="image" src="https://github.com/user-attachments/assets/0bc9835e-a224-4258-ad4e-58d988843f20" />
 
 A classe __.circulo__ cria um elemento de 0 0 300px; com fundo rosa escuro e bordas arredondadas (__border-radius: 50%__), formando um círculo. Ele usa __display: flex__ em coluna para centralizar conteúdo vertical e horizontalmente, com padding de 30px e texto centralizado. A propriedade __transition: 0.3s__ suaviza alterações de estilo. Ao passar o mouse (__:hover__), o círculo aumenta de tamanho com __transform: scale(1.2)__, criando efeito interativo.
 
-# Estilo da seção de organizadoras
+# 9. Estilo da seção de organizadoras
 
 <img width="590" height="614" alt="image" src="https://github.com/user-attachments/assets/bfa3f10c-8ba4-468d-8e38-0e27bb29482e" />
 
 A classe __.organizadoras__ define o espaçamento interno (__padding: 60px 10%__) e uma borda superior rosa (__border-top: 2px solid #c9797d__) para a seção de participantes. O título (__.organizadoras h1__) tem margem inferior, fonte de 30px e exibe elementos alinhados horizontalmente com espaço (__gap: 10px__). A lista de pessoas (__.pessoas__) é organizada em grid responsivo, com colunas automáticas e espaçamento de 40px, centralizando os itens. Cada participante (__.pessoa__) tem texto centralizado. As imagens (__.foto img__) são circulares (__border-radius: 50%__), têm tamanho 150x150px, margem inferior de 15px e centralização, com efeito de aumento ao passar o mouse (__hover: transform: scale(1.2)__) para interatividade visual.
 
-# Estilos responsivos para telas pequenas
+# 10. Estilos responsivos para telas pequenas
 
 <img width="465" height="541" alt="image" src="https://github.com/user-attachments/assets/baaf2da5-1224-4b87-ae02-2c175dcd3dc6" />
 
 Este trecho adapta o layout para telas com largura máxima de 768px, como tablets e celulares. Elementos em __.tudo__ passam a se organizar em coluna e centralizados. O menu de navegação se ajusta, centralizando os itens e permitindo que quebrem linha, com fontes menores. Os elementos circulares (__.circulo__) ficam mais estreitos, com bordas menos arredondadas, e a grade de participantes (__.pessoas__) se ajusta para caber melhor em telas pequenas. Além disso, os parágrafos deixam de flutuar e sua altura se ajusta automaticamente, garantindo melhor leitura e usabilidade em dispositivos móveis.
 
 # Formulário
-# Centralização do formulário e estilo do corpo
+# 1. Centralização do formulário e estilo do corpo
 
 <img width="387" height="293" alt="image" src="https://github.com/user-attachments/assets/215b874f-4d1b-420a-a2d0-dd6c58127d1f" />
 
 O __body__ recebe um fundo rosa escuro. A classe __.center-form__ garante que o corpo tenha altura mínima de 100% da tela, permitindo que o formulário seja centralizado vertical e horizontalmente. O formulário dentro de __.center-form__ usa __position: absolute__ e transformações (__translate__) para ficar exatamente no centro da tela, criando um layout visualmente equilibrado e destacado.
 
-# Estilo de formulário e links
+# 2. Estilo de formulário e links
 
 <img width="195" height="205" alt="image" src="https://github.com/user-attachments/assets/f286fdc6-9238-4eda-853f-9d3bd2b94288" />
 
